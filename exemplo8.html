@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo 8 - Formulário</h1>
+    <form action="" method="post">
+    <fieldset>
+        <legend>Cadastro de preferências</legend>
+        <div>
+            <label for="">Nome</label>
+            <input type="text" name="txtNome" id="txtNome">
+        </div>
+        <div>
+            <label for="">Ano do Nascimento</label>
+            <input type="number" name="txtNascimento" id="txtNascimentoName">
+        </div>
+        <div>
+            <label for="">Selecione um ou mais gêneros de filmes</label>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="1">Romance<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="2">Terror<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="3">Comédia<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="4">Ação<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="5">Adulto<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="6">Épico<br>
+            <input type="checkbox" name="chkGenero" id="chkGenero"value="7">Outros<br>
+        </div>
+        <div>
+            <label for="">Selecione um destino favorito</label><br>
+            <input type="radio" name="rdDestino" id="rdDestino"value="1">Cachoeira<br>
+            <input type="radio" name="rdDestino" id="rdDestino"value="2">Praia<br>
+            <input type="radio" name="rdDestino" id="rdDestino"value="3">Rural<br>
+            <input type="radio" name="rdDestino" id="rdDestino"value="4">Vale<br>
+        </div>
+        <div>
+            <label for="">Selecione uma região favorita</label><br>
+            <select name="cboRegiao" id="cboRegiao">
+                <option value="1">Norte</option>
+                <option value="2">Nordeste</option>
+                <option value="3">Sul</option>
+                <option value="4">Sudeste</option>
+                <option value="5">Centro-Oeste</option>
+                <option value="6">Outros</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Exemplo 16 - CSS</title>
+    <style>
+        .divBlock{
+            display:block;
+            background-color: lightblue;
+            width: 100%;
+            padding: 10px;
+
+        }
+        span{
+            display: inline;
+            background-color: yellow;
+            width: 850px;
+            height: 900px;
+        }
+        .divInlineBlock{
+            display: inline-block;
+            background-color: lightseagreen;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo CSS - Display</h1>
+    <div>
+        <h2>Display:Block</h2>
+        <div class="divBlock">Este é um elemento block</div>
+
+        <div>Este é outro elemento block. Ele ocupa toda a largura disponível</div>
+        
+    </div>
+    <div>
+        <h2 class="divBlock">Display:Inline</h2>
+        <p>Este é um<span>elemento Inline</span>  e não há<span> quebra de linha</span> ou a aplicaçã
+            dos<span>atributos de lagura e altura</span>
+        </p>
+    </div>
+    <div>
+        <h2 class="divBlock">Display: Inline-block</h2>
+        <div class="divInlineBlock">Este é um elemnto inli-block.</div>
+        <div class="divInlineBlock">Este é outro elemento inline-block.</div>
+    </div>
+</body>
+</html>

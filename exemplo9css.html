@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: fantasy;
+            color: darkred;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: darkgoldenrod;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #paragrafo1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #paragrafo2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            text-align: justify;
+            text-transform: capitalize;
+        }
+
+        .div1{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin: 15px;
+            padding: 10px;
+            border-left: blue solid 4px;
+            border-radius: 10px;
+            background-color: rgba(17, 17, 227, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <div class="div1">
+            <H1>Exemplo 9 - CSS</H1>
+            <p  id="#paragrafo1">O css é utilizado na estilização de elementos html. Para que possa
+                aplicar a folha de estilos em cascata - css nos elementos html, você
+                necessariamente poderá utilizar as regras css, que podem ser definidas 
+                por meio de seletores seguidos de {} e dentro dessas chaves,
+                propriedades e valores.
+            </p>
+            <p>Os seletores contidos nas regras CSS são padrões usados para definir
+                quais elementos HTML receberão determinados estilos, eles podem ser de 
+                três tipos: Seletores de tipo, id e classe.
+            </p>
+            
+            
+        </div>
+        <div class="div1">
+            <h2>Seletores de tipo</h2>
+            <p  id="#paragrafo2">Os seletores de tipo são aqueles que são representados pelas tags 
+                HTML, geralmente são aplicados a todas as tags HTML que se referenciam.
+            </p>
+            <p  id="#paragrafo2">Esses seletores são descritos da seguinte forma: h1{propriedade:valor},
+                no caso do exemplo citado, o seletor de tipo é o h1, que representa 
+                uma tag de seção.
+            </p>
+        </div>
+        <div    class="div1">
+                <h2>Seletores de ID</h2>
+                <p>Os seletores de ID são aqueles que utilizam id(atributos) únicos de 
+                    elementos HTML. Esses seletores são personalissimos, personalissimos
+                    pois são aplicados unicamente aos elementos HTML que tiverem o id específico.
+
+                </p>
+                <p>Para criar um seletor de ID seguimos a seguinte regra: #NomeSeletor
+                    {propriedade:valor}
+                </p>
+        </div>
+        <div    class="div1">
+                <h2>Seletores de Classe</h2>
+                <p>Os seletores de classe são aqueles usados para aplicar o estilo a vários
+                    elementos HTML que possuírem o mesmo atributo class. Sua sintaxe é definida
+                    da seguintes maneira .NomeSeletor{prorpridade:valor}
+                </p>
+
+
+
+            </div>
+            
+        
+    
+</body>
+</html>
